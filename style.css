@@ -1,0 +1,13 @@
+/*stylesheetは上から読み込まれている*/
+@import url(sanitize.css);/*htmlでも書いているがcssにsanitizeをimportとして書くのもよい*/
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+p {
+    font-size: 12px;
+}
+div.content{
+    width: 600px;
+    margin: 10px auto;/*marginは余白autoは均等にしてくれる*/
+}
