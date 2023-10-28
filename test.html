@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!--宣言-->
+<html lang="ja"><!--HTMLファイル-->
+    <head>
+        <meta charset="UTF-8"><!--文字コードの設定-->
+        <meta name="viewport" content="width=device-width"><!--スマートフォンなどに余白を合わせる-->
+        <title>入会申し込み</title><!--タグ名-->
+        <link rel="stylesheet" href="css/sanitize.css"><!--sanitize.cssのリンクを読み込ませている(cssに書いてあれば書かなくても良い)-->
+        <!--sanitizeとはブラウザごとに見方が変わらないようにする為の機能-->
+        <link rel="stylesheet" href="css/style1.css"><!--cssで装飾するためのリンクを読み込ませている-->
+        
+    </head>
+    <body><!--画面に表示される部分-->
+    <div class="content">
+            <h1>入会申し込み</h1>
+            <p>入会するには、次のフォームに必要事項をご記入ください</p>
+            <p>メールアドレス:<input type="email" name="mymail"></p>
+            <p>パスワード:<input type="password" name="mypassword"></p>
+            <p><button type="submit">登録する</button></p><!--入れ子なので終了タグの位置に注意-->
+        </div>
+    </body>
+</html>
