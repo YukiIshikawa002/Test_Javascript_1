@@ -10,4 +10,7 @@ p {
 div.content{
     width: 600px;
     margin: 10px auto;/*marginは余白autoは均等にしてくれる*/
+    border:5px solid #f11f;
+    border-style:groove;
+    padding:5px;/*paddingとはmarginより内側の余白の調整出来る*/
 }
